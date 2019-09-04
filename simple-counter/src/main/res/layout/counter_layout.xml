@@ -12,7 +12,9 @@
         android:id="@+id/count_view_edit_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#2e3e2e"
         android:hint="@string/default_placeholder_text"
+        android:enabled="false"
         android:inputType="number"
         android:padding="@dimen/default_padding" />
 
