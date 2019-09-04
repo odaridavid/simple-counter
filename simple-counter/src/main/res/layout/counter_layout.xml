@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/decrement_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_padding"
+        android:src="@drawable/ic_decrement_arrow" />
+
+    <EditText
+        android:id="@+id/count_view_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/default_placeholder_text"
+        android:inputType="number"
+        android:padding="@dimen/default_padding" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/increment_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_padding"
+        android:src="@drawable/ic_increment_arrow" />
+</merge>

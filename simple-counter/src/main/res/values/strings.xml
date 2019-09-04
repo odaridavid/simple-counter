@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">simple-counter</string>
+    <string name="default_placeholder_text">0</string>
 </resources>
