@@ -11,9 +11,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        simpleCounter.setListener { value ->
-            Toast.makeText(this,"$value",Toast.LENGTH_SHORT).show()
-        }
+//        simpleCounter.setListener { value ->
+//            Toast.makeText(this,"$value",Toast.LENGTH_SHORT).show()
+//        }
 
     }
 }
