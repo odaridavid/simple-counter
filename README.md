@@ -1,5 +1,7 @@
 # simple-counter
 
+[![](https://jitpack.io/v/Davidodari/simple-counter.svg)](https://jitpack.io/#Davidodari/simple-counter)
+
 This a simple implementation of a counter custom view 
 
 ## Usage
