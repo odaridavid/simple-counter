@@ -2,6 +2,7 @@ package com.davidodari.simplecounter
 
 import android.content.Context
 import android.util.AttributeSet
+import android.view.LayoutInflater
 import android.widget.LinearLayout
 
 class SimpleCounter @JvmOverloads constructor(
@@ -13,5 +14,8 @@ class SimpleCounter @JvmOverloads constructor(
     LinearLayout(context, attrs, defStyleAttr, defStyleRes) {
     init {
         orientation = HORIZONTAL
+        //Inflate layout
+        val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+        inflater.inflate(R.layout.counter_layout, this)
     }
 }
