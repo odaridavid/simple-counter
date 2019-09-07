@@ -6,6 +6,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/default_padding"
+        android:background="?android:attr/colorBackground"
         android:src="@drawable/ic_decrement_arrow" />
 
     <EditText
@@ -14,6 +15,7 @@
         android:layout_height="wrap_content"
         android:textColor="#2e3e2e"
         android:hint="@string/default_placeholder_text"
+        android:background="@drawable/edit_text_background"
         android:enabled="false"
         android:inputType="number"
         android:padding="@dimen/default_padding" />
@@ -23,5 +25,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/default_padding"
+        android:background="?android:attr/colorBackground"
         android:src="@drawable/ic_increment_arrow" />
 </merge>
