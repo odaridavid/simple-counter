@@ -45,8 +45,7 @@ Then add the library to module level build.gradle.
 
 [Part 1](https://davidodari.hashnode.dev/create-once-use-everywhere-with-custom-views-part-1-ck05onmo2000m83s1hi9fj58w)
 
-|![Counter Gif](art/counter.gif)|Simple Counter|
-|:--:|:--:|
+![Counter Gif](art/counter.gif)
 
 <i>&copy; David Odari</i>
 
